@@ -24,7 +24,16 @@
             <button onclick="addStory()">প্রকাশ করুন</button>
         </div>
 
-        <div class="ad-placeholder">বিজ্ঞাপন এখানে দেখাবে</div>
+        <div class="ad-placeholder"><script>
+  atOptions = {
+    'key' : '69979268c9ffa8f663ad994ca2502a9a',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/69979268c9ffa8f663ad994ca2502a9a/invoke.js"></script></div>
 
         <div id="storyContainer">
             </div>
