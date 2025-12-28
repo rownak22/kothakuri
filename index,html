@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>কথাকুড়ি - আপনার গল্পের জগত</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>কথাকুড়ি</h1>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="গল্প খুঁজুন...">
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="add-story">
+            <h3>নতুন গল্প লিখুন</h3>
+            <input type="text" id="storyTitle" placeholder="গল্পের শিরোনাম">
+            <textarea id="storyContent" rows="5" placeholder="আপনার গল্পটি এখানে লিখুন..."></textarea>
+            <button onclick="addStory()">প্রকাশ করুন</button>
+        </div>
+
+        <div class="ad-placeholder">বিজ্ঞাপন এখানে দেখাবে</div>
+
+        <div id="storyContainer">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
